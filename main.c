@@ -28,7 +28,7 @@ void createBin()
         printf("Enter the Fill Level : ");
         scanf("%d", &bin[i].fill_level);
         printf("Enter the Bin Type (Dry - D, Wet - W, Mixed - M, Hazardous - H) : ");
-        scanf(" %c", &bin[i].type); // Added space to consume newline
+        scanf(" %c", &bin[i].type);
     }
     printf("Bins Created Successfully!\n");
 }
